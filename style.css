@@ -1,0 +1,310 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: 'H', 'Trebuchet MS', Helvetica;; */
+}
+
+p, button, a, li {
+    font-family: 'Open Sans', sans-serif;
+} 
+
+h1, h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+/*----------------------*/
+/*HEADER*/
+#root {
+    margin-top: 20px;
+
+}
+div#navBar {
+    height: 150px;
+    width: auto;
+    /* border: 2px solid black; */
+    position: relative;
+}
+
+div#titlePage { /*Logo de la pagina*/
+    width:630px;
+    height: 150px;
+    float:left;
+    margin-left: 20px;
+    /* border: 2px solid black; */
+    /* margin-bottom: 50px; */
+}
+
+div#titlePage img { /*Logo*/
+    height: 50px;
+}
+
+div#menu { /*Menu principal de la derecha*/
+    position:absolute;
+    left:575px;
+    /* border: 2px solid black; */
+    width: 600px;
+    height: 150px;
+    padding-left: 100px;
+    text-align: center;
+    font-size: 20px;
+    /* margin-bottom:50px; */
+}
+
+div#menu button { /*Botones de la derecha del menu*/
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent !important;
+    border: none;
+}
+
+
+/*Buttons, links and lists*/
+button , a :hover {
+    cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+}
+
+/*----------------------*/
+/*Body de la pagina*/
+/*First box*/
+div#information { /*Caja padre de la imagen, descripcion*/
+    width: auto;
+    height: 350px;
+    margin-bottom: 20px;
+    clear:both;
+    /* border: 2px solid black; */
+    position: relative;
+
+}
+div#imgFylo1 { /*Propiedades del div imagen1*/
+    width: 600px;
+    height: 300px ;
+    position: relative;
+    float: right;
+} 
+
+div#information div#generalDescription  {/*Propiedad del div del texto*/
+    width:500px;
+    padding-left: 15px;
+    position: absolute;
+    top:50px;
+  
+}
+
+div#imgFylo1 img#firstImage{ /*Propiedad de la imagen1 */
+    width: 550px;
+    height: 300px;
+    padding-left: 50px;
+}
+input#getEmail {
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    border:1px thin gray;
+
+    margin-right: 10px ;
+    color: gray;
+    padding-left: 15px;
+}
+button#sendEmail {
+    width: 185px;
+    height: 35px;
+    border:none;
+    border-radius: 2px;
+    background-color: #0040FF;
+    color: white;
+}
+
+/* Segunda cuadro de texto stay productive*/ 
+div#stayProductive { 
+    height: 700px;
+    width: auto;
+    position: relative;
+    background: url("./images/bg-curve-desktop.svg") no-repeat;
+    background-color: #FAFAFA; /*Color de la imagen que va de fondo*/
+    background-position: top center;
+    background-size: 500px 100px;
+}
+div#backGroundImg {
+    height: 500px;
+    width: auto;
+}
+
+div#imgFylo2 { /*Propiedades del div imagen2*/
+    width: 600px;
+    height: 300px ;
+    position: relative;
+    top: 50px;
+    float: right;
+} 
+
+div#imgFylo2 img#secondImage{ /*Propiedad de la imagen2 */
+    width: 530px;
+    height: 300px;
+    padding-left: 50px;
+}
+
+div#allText{
+   
+    width: 500px;
+    position:absolute;
+    top:150px;
+    padding-left: 20px;
+}
+p a#fyloWorks {
+    width: 165px;
+    height: 30px;
+    color: #088A68;
+    padding-right: 20px ;
+    text-decoration: none;
+    border-bottom:2px solid #088A68 ;
+    background: url("./images/icon-arrow.svg")  right no-repeat; 
+}
+
+/*Parte del comentario*/
+div#opinionWindow {
+    position: absolute;
+    top:400px;
+    width: 450px;
+    margin-left: 20px;
+    padding: 20px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: hsl(240, 75%, 98%);
+}
+div#subject {
+    margin-top: 20px;
+}
+img#avatar { /*Propiedades de la imagen */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+div#subject div#imgAvatar{
+    width: 55px;
+    float: left;
+}
+
+div#nameSubject {
+    height: 50px;
+    width: 250px;
+}
+
+/*Early access*/
+div#earlyAccess {
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    height: 250px;
+    position: relative;
+}
+div#earlyAccessText {
+    width:500px;
+    height: 150px;
+    margin-left: 35px;
+    padding-left: 15px;
+    position: absolute;
+    top:70px;
+}
+div#data{ /*boton y caja de texto en get early*/
+    width:500px;
+    height: 130px;
+    position: absolute;
+    left: 850px;
+    bottom: 20px;
+}
+
+/*Get early access button and text */
+input#dataText {
+    width: 310px;
+    height: 30px;
+    border-radius: 3px;
+    margin-right: 10px ;
+    color:lightgrey;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+button#dataButton {
+    width: 185px;
+    height: 40px;
+    border:none;
+    border-radius: 2px;
+    background-color: #0174DF;
+    font-size: bold;
+    color: white; 
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+
+    
+}
+
+
+
+/*----------------------*/
+/* footer */
+footer.footer {
+    height: 350px;
+    background-color:  hsl(243, 87%, 12%);
+    color: white;
+    position: relative;
+}
+
+div#moreInformation ul li a, div#moreInformation2 ul li a, div#developBy p.attribution a {
+    text-decoration: none;
+    color: white;
+}
+
+div#moreInformation ul li, div#moreInformation2 ul li {
+    margin-bottom: 20px;
+}
+
+div#phoneContact p {
+    width: 250px;
+    padding: 5px;
+    background-image: url("./images/icon-phone.svg")left no-repeat;
+    background-size: contain;
+}
+
+div#emailContact p {
+    width: 250px;
+    padding: 5px;
+    background-image: url("./images/icon-email.svg")left no-repeat;
+    background-size: contain;
+}
+
+div.generalFooter {
+    width: 1280px;
+    height: 280px;
+    margin:37px 50px;
+    position: absolute; 
+}
+
+div#moreInformation {
+    width: 100px;
+    position: absolute;
+    left: 400px;
+    bottom:47px;
+}
+
+
+div#moreInformation2 {
+    width: 100px;
+    position: absolute;
+    left: 700px;
+    bottom:90px;
+}
+ 
+div#developBy {
+    width: 300px;
+    height: 54px;
+    position: absolute;
+    left: 960px;
+    bottom: 120px;
+} 
+
